@@ -1,0 +1,338 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.all img{
+  position: relative;
+  z-index: 1;
+    height: 1000px;
+    width: 100%;
+  
+  
+ 
+}
+.navbar{
+    justify-content: space-between;
+    top: 10px;
+z-index: 2;
+    color: tomato;
+    position: absolute;
+    margin-left:30px;
+}
+.navbar-nav:first-child{
+    border-bottom: blueviolet;
+}
+.navbar-nav a{
+margin-left: 10px;
+}
+.nav-link_logo{
+    
+    text-align: center;
+    text-decoration: none;
+    margin-left: 700px;
+    background-color: white;
+    padding: 10px;
+    width: 75px;
+    border-radius: 10px;
+}
+.nav-link a{
+color: blueviolet;
+  
+    
+}
+.landing_bg{
+    position: absolute;
+    top: 200px;
+  right: 190px;
+    
+}
+.mask{
+    position: absolute;
+    top: 250px;
+    right:400px;
+    height: 200px;
+    width: 200px;
+}
+.mask img{
+    width: 200px;
+    margin-right: 200px;
+}
+.clouds{
+    position: absolute;
+   top: 500px;
+   left: 700px;
+
+   z-index: 3;
+}
+.waves{
+    position: absolute;
+    top: 600px;
+    right: 20px;
+    
+}
+.hero_left{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+.delivery{
+    color: blueviolet;
+    font-weight: bold;
+}
+.container{
+    position: relative;
+}
+.line{
+ position: absolute;
+ top: 2px; 
+ left: 200px;
+ z-index: -1;
+}
+.line img{
+width: 90%;
+
+}
+.group1 img:last-child{
+margin-top: 100px;
+}
+.group2{
+    height: 300px;
+    margin-top: 160px;
+    
+}
+.group3{
+    text-align: center;
+    margin-top: 350px;
+    padding-right: 20px;
+    
+}
+.kudzoka{
+    position: relative;
+    margin-top: 100px;
+}
+.kudzokap{
+    position: absolute;
+    right: 90px;
+    top: 60px;
+    color:white;
+}
+
+
+
+
+.section_2{
+    margin-top: 60px;
+   
+
+}
+.goup2_1 img{
+    text-align: center;
+    width: 55%;
+}
+.goup2_2 img{
+
+width: 100%;
+    
+}
+.goup2_2{
+    text-align: center;
+}
+.goup2_3 img{
+    
+    margin-left: 110px;
+    width: 55%;
+    
+}
+
+.footer{
+    position: relative;
+    z-index: 2;
+    height: 600px;
+    
+  
+    overflow: hidden;
+    
+}
+.footer img{
+    margin-top: 0px;
+    height: 800px;
+    margin-right: 50px;
+    padding-right: 50px;
+    z-index: 1;
+}
+.person_2{
+    height: 350px;
+    top: 200px;
+    left: 710px;
+    position: absolute;
+    z-index: 2;
+   
+}
+.person_2 img{
+    height: 300px;
+    width: 500px;
+
+}
+
+  
+.apple{
+    top: 390px;
+    left: 150px;
+    position: absolute;
+    width: 150px;
+    padding: 9px;
+    
+    border-radius: 5px;
+    background-color:white;
+   z-index: 2;
+   height: 65px;
+
+}
+.apple h5{
+    margin-top: 15px;
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+.apple  img{
+    padding-top: 1px;
+    position: absolute;
+  width: 100px;
+  z-index: 2;
+  height: 50px;
+}
+
+
+
+.playstore{
+    top: 390px;
+    left: 350px;
+    position: absolute;
+    width: 150px;
+    padding: 9px;
+    border-radius: 5px;
+    background-color:white;
+   z-index: 2;
+   height: 65px;
+
+}
+.playstore h5{
+    margin-top: 15px;
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+.playstore  img{
+    padding-top: 1px;
+    position: absolute;
+  width: 100px;
+  z-index: 2;
+  height: 50px;
+}
+.play-store img{
+    width: 44px;
+    height: 50px;
+
+}
+
+
+
+
+
+
+
+
+.insta{
+    top: 460px;
+    left: 150px;
+    position: absolute;
+    width: 150px;
+    padding: 9px;
+    border-radius: 5px;
+    
+   z-index: 2;
+   height: 65px;
+}
+.insta img{
+    padding-top: 1px;
+    position: absolute;
+  width: 100px;
+  z-index: 2;
+  height: 50px;
+}
+
+
+
+
+
+
+.whats{
+    top: 460px;
+    left: 230px;
+    position: absolute;
+    width: 150px;
+    padding: 9px;
+    border-radius: 5px;
+    
+   z-index: 2;
+   height: 65px;
+}
+.whats img{
+    padding-top: 1px;
+    position: absolute;
+  width: 100px;
+  z-index: 2;
+  height: 50px;
+}
+
+
+
+
+.facebook{
+    top: 460px;
+    left: 300px;
+    position: absolute;
+    width: 150px;
+    padding: 9px;
+    border-radius: 5px;
+    
+   z-index: 2;
+   height: 65px;
+}
+.facebook img{
+    padding-top: 1px;
+    position: absolute;
+  width: 100px;
+  z-index: 2;
+  height: 50px;
+}
+
+
+
+
+.navbar-nav_l a {
+    
+  
+ 
+z-index: 2;
+    color:white;
+    position: absolute;
+    
+
+}
+.navbar-nav_12 {
+    width: 500px;
+    
+    margin-top: 530px;
+    margin-left: 120px;
+    color: white;
+}
+.navbar-nav_12 a{
+    text-decoration: none;
+}
+.nav-link_l{
+padding: 10px;
+color: white;
+}
